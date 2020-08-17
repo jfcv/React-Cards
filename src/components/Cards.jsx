@@ -9,13 +9,13 @@ function Cards() {
         <div className="container-fluid d-flex justify-content-center">
             <div className="row">
                 <div className="col-md-4">
-                    <Card image={img1}/>
+                    <Card image={img1} title="Ella" />
                 </div>
                 <div className="col-md-4">
-                    <Card image={img2}/>
+                    <Card image={img2} title="Deer" />
                 </div>
                 <div className="col-md-4">
-                    <Card image={img3}/>
+                    <Card image={img3} title="Straw" />
                 </div>
             </div>
         </div>
